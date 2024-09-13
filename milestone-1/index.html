@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editable Resume</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="resume-container">
+    <!-- Resume Header -->
+    <div class="resume-header">
+      <h1 contenteditable="true" class="editable" data-section="name">Alyan Sheikh</h1>
+      <p contenteditable="true" class="editable" data-section="summary">A passionate software developer with experience in web development and a love for clean code.</p>
+    </div>
+
+    <!-- Resume Section - Education -->
+    <div class="resume-section">
+      <h2>Education</h2>
+      <div contenteditable="true" class="editable" data-section="education">
+        Bachelor of Science in Computer Science, ABC University, 2020
+      </div>
+    </div>
+
+    <!-- Resume Section - Work Experience -->
+    <div class="resume-section">
+      <h2>Work Experience</h2>
+      <div contenteditable="true" class="editable" data-section="experience">
+        Software Developer at XYZ Corp, 2020 - Present
+      </div>
+    </div>
+
+    <!-- Resume Section - Skills -->
+    <div class="resume-section">
+      <h2>Skills</h2>
+      <div contenteditable="true" class="editable" data-section="skills">
+        JavaScript, TypeScript, React, Node.js, CSS, HTML
+      </div>
+    </div>
+  </div>
+  
+ 
+</body>
+</html>

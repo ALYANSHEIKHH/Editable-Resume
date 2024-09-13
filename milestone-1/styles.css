@@ -1,0 +1,71 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+  }
+  
+  .resume-container {
+    background: #fff;
+    width: 60%;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resume-header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+  }
+  
+  .resume-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+  }
+  
+  .resume-header p {
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  .resume-section {
+    margin-bottom: 40px;
+  }
+  
+  .resume-section h2 {
+    font-size: 1.8em;
+    color: #4a4a4a;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f08a24;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .editable {
+    font-size: 1.1em;
+    padding: 10px;
+    background: #f8f8f8;
+    border-radius: 5px;
+    transition: background 0.3s;
+    cursor: text;
+    margin-top: 10px;
+  }
+  
+  .editable:hover {
+    background: #e8e8e8;
+  }
+  
+  .editable:focus {
+    outline: none;
+    background: #fff4e6;
+    box-shadow: 0 0 0 2px #f08a24;
+  }
+  
